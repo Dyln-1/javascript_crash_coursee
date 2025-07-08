@@ -1,0 +1,33 @@
+/* Basic reset and background */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Make canvas fill screen */
+  canvas {
+    display: block;
+  }
+  
+  /* Style the file input button */
+  #fileupload {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    padding: 10px 15px;
+    background-color: #00ffcc;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  #fileupload:hover {
+    background-color: #00ccaa;
+  }
+  
